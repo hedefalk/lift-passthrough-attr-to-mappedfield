@@ -1,0 +1,35 @@
+<div class="lift:surround?with=default;at=content">
+    <h2>Welcome to your project!</h2>
+    <p>
+        <div class="lift:mySnippet.createGuy">
+        	<p>Here, the input's id is passed through bind:</p>
+            <div class="field1">
+                <label for="field1">
+                </label>
+                <input id="field1">
+                </input>
+            </div>
+			<p>Here, where I prepended a Msg, it's not:</p>
+            <div class="field2">
+                <label for="field2">
+                </label>
+                <input id="field2">
+                </input>
+            </div>
+			<p>Here, I try to fix it with S.attrsToMetaData, but those attributes are from the snippet, not the currently bound thing</p>
+            <div class="field3">
+                <label for="field3">
+                </label>
+                <input id="field3">
+                </input>
+            </div>
+			<p>This works, but it's kind of ugly…?</p>
+            <div class="field4">
+                <label for="field4">
+                </label>
+                <input id="field4">
+                </input>
+            </div>
+        </div>
+    </p>
+</div>
